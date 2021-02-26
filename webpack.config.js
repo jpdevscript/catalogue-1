@@ -33,6 +33,12 @@ module.exports = {
           'style-loader',
           'css-loader'
         ]
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg|eot|ttf|woff|woff2)$/i,
+        use: {
+          loader: 'url-loader'
+        }
       }
     ]
   }
