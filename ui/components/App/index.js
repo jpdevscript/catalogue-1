@@ -4,8 +4,8 @@ import HairlineDivider from "@tds/core-hairline-divider";
 import Box from "@tds/core-box";
 
 import Home from "../Home";
-import Iphones from "../Iphones";
-import Watches from "../Watches";
+import Iphone from "../Iphone";
+import Watch from "../Watch";
 
 const App = () => {
   return (
@@ -31,10 +31,10 @@ const App = () => {
             <Home />
           </Route>
           <Route path="/iphones">
-            <Iphones />
+            <Iphone />
           </Route>
           <Route path="/watches">
-            <Watches />
+            <Watch />
           </Route>
         </Switch>
       </Fragment>
