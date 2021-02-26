@@ -7,9 +7,22 @@
     "dev": "concurrently --kill-others \"npm run dev:ui\" \"npm run dev:server\""
   },
   "dependencies": {
+    "@tds/core-box": "^2.3.4",
+    "@tds/core-card": "^2.5.1",
+    "@tds/core-flex-grid": "^4.0.2",
+    "@tds/core-hairline-divider": "^2.0.18",
+    "@tds/core-heading": "^3.0.8",
+    "@tds/core-image": "^2.0.25",
+    "@tds/core-price-lockup": "^2.3.2",
+    "@tds/core-text": "^3.1.5",
     "express": "^4.17.1",
+    "prop-types": "^15.7.2",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "regenerator-runtime": "^0.13.7",
+    "styled-components": "^5.2.1",
+    "url-loader": "^4.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.13",
