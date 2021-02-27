@@ -25,7 +25,6 @@ const App = () => {
         <Box vertical={3}>
           <HairlineDivider />
         </Box>
-
         <Switch>
           <Route exact path="/">
             <Home />

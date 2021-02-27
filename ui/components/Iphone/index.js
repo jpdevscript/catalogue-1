@@ -27,7 +27,7 @@ const Iphone = () => {
                     <Text>{iphone.name}</Text>
                     <Text>Retail Price: ${iphone.price}</Text>
                   </Box>
-                  <FlexGrid.Row key={iphone.id}>
+                  <FlexGrid.Row>
                     <DeviceDetail
                       image={iphoneImage}
                       name={iphone.name}
